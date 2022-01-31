@@ -1,0 +1,13 @@
+version: '3.9'
+services:
+  hflow3:
+    build: .
+    environment:
+      - TZ=America/New_York
+      - DEBIAN_FRONTEND=noninteractive
+    volumes:
+      # - <host>:<container>
+      - ./hiflow3-v3_teaching:/home/hiflow3
+#volumes:
+#  hiflow-host:
+# hiflow-host:/home
