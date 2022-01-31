@@ -14,5 +14,4 @@ RUN apt-get update; \
 
 USER hiflow3
 
-WORKDIR /home/hiflow3/hiflow3-v3_teaching/
-
+WORKDIR /home/hiflow3/hiflow3-v3/

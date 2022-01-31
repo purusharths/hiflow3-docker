@@ -1,6 +1,6 @@
 version: '3.9'
 services:
-  hflow3:
+  hiflow3v3:
     build: .
     environment:
       - TZ=America/New_York
@@ -8,6 +8,4 @@ services:
     volumes:
       # - <host>:<container>
       - ./hiflow:/home/hiflow3
-#volumes:
-#  hiflow-host:
-# hiflow-host:/home
+
