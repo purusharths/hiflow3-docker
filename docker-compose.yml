@@ -7,7 +7,7 @@ services:
       - DEBIAN_FRONTEND=noninteractive
     volumes:
       # - <host>:<container>
-      - ./hiflow3-v3_teaching:/home/hiflow3
+      - ./hiflow:/home/hiflow3
 #volumes:
 #  hiflow-host:
 # hiflow-host:/home
